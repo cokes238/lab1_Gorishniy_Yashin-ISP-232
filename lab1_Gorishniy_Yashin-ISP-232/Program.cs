@@ -83,6 +83,11 @@
             Console.WriteLine($"В следующем году тебе будет {age + 1}.");
 
             //7
-
+            string name = "Andrey and Diman";
+            int age = 18;
+            string city = "Volzhskiy";
+            Console.WriteLine($"{name}");
+            Console.WriteLine($" тебе {age}");
+            Console.WriteLine($"лет и ты живешь в городе {city}");
         }
     }
