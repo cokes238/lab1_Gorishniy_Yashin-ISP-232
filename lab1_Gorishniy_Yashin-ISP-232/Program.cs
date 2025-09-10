@@ -89,5 +89,11 @@
             Console.WriteLine($"{name}");
             Console.WriteLine($" тебе {age}");
             Console.WriteLine($"лет и ты живешь в городе {city}");
+
+            //8
+            Console.Write("Введите темп в градусах Цельсия:");
+            double cel = double.Parse(Console.ReadLine());
+            double fah = (cel * 9 / 5) + 32;
+            Console.WriteLine($"Темп: {fah:F2}°F");
         }
     }
